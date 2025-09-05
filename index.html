@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet" />
    
     </style>
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
-
+    <!-- heading and change mode button-->
+     <div class="navbar" ><h1>Rock Paper Scissors</h1>
+        <div class="mode" ><i class="ri-moon-fill"></i></div>
+</div>
 
     <!--  main div is choices and 3 circle class is equal to choice-->
     <div class="choices">
@@ -39,7 +43,7 @@
             </div>
             <div class="score">
                 <p id="comp-score">0</p>
-                <p>comp</p>
+                <p>computer</p>
             </div>
         </div>
 
@@ -48,5 +52,6 @@
         <div class="msg-container">
             <p id="msg">Play your move</p>
         </div>
+        <script src="script.js" ></script>
 </body>
 </html>
