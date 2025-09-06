@@ -6,7 +6,7 @@
 html,body{
         height:100%;
         width:100%; 
-            background-color:#059defe6;
+            background-color:#059def77;
 
         
 }
@@ -17,6 +17,7 @@ html,body{
 h1{ 
     background-color:#081b31;
     background:linear-gradient(150deg,rgb(237, 110, 131), green);
+
     height:5rem;
     line-height:5rem;
     width:92vw;
@@ -38,16 +39,30 @@ h1{
 .mode:hover i{
     cursor:pointer;
      transform:scale(1.2);
-     transition: transform s ease;
+     transition: transform 0.5s ease;
    
 }
+#name{
+  height:4rem;
+    line-height:4rem;  
+    /* background-color:green; */
+    font-size:3rem;
+    color:rgb(245, 34, 203);
+    text-decoration:underline;
+    text-transform:capitalize;
+    font-style:italic;
+    
+}
+
+
+
 
 .choices{
     display:flex;
     justify-content:center;
     align-items:center;
     gap:3rem;
-    margin-top:4.5rem;
+    margin-top:3rem;
 
 }
 .choice{
@@ -55,6 +70,7 @@ h1{
     height:165px;
      border-radius:50%;
      display:flex;
+
     justify-content:center;
     align-items:center;
    
@@ -88,7 +104,7 @@ img{
 
 }
 .msg-container{
-    margin-top:5rem;
+    margin-top:3rem;
 
 }
 #msg{
@@ -96,12 +112,9 @@ img{
     background-color:#081b31;
     color:#fff;
     font-size:2rem;
-    display:inline;
+    display:inline; /*convert into inline*/
     padding: 1rem;
     border-radius:1rem;
-
-
-
     
 }
 .dark{

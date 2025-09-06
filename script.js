@@ -1,3 +1,10 @@
+
+const names=document.getElementById("name");
+let user=prompt("Enter Your Name To Start The Game :");
+ 
+    names.innerText="Hi"+"   "+user;
+    
+
 const choices = document.querySelectorAll(".choice");
 const msg=document.querySelector("#msg");
 const comp_scores=document.querySelector("#comp-score");
@@ -18,6 +25,7 @@ const drawGame = () => { // check draw
 };
 const showWinner = (userWin , userChoice ,compChoice) => { // check win or fail
   if (userWin){
+    
     user_point+=1;
     user_scores.innerText=user_point;
     msg.innerText=` You win! Your ${userChoice} beats ${compChoice}`;
@@ -82,3 +90,4 @@ btn.addEventListener("click",()=>{
     }
 console.log(currmode);
 } );
+// let name=prompt("Enter your name to start the game :");
