@@ -90,4 +90,4 @@ btn.addEventListener("click",()=>{
     }
 console.log(currmode);
 } );
-// let name=prompt("Enter your name to start the game :");
+
